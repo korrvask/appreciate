@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+.social-screen {
+    padding-top: 0px; 
+    padding-bottom: 180px; 
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30%;
+
+}
+
+.icons img {
+    margin-right: 40px; 
+}
+
+.icons img:last-child {
+    margin-right: 0;
+}
+
+.main-screen, .hover-screen {
+    display: block; 
+}
+
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-image img {
+    width: 90%; 
+}
+
+.bottomsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirdsection img {
+    max-width: 100%;
+    height: auto;
+}
+
+#seeyousoon {
+    justify-content: center;
+    padding-left: 40px;
+    max-width: 85%;
+    padding-top: 130px;
+}
+#positive {
+    max-width: 70%;
+    height: auto;
+    padding-bottom: 8px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .social-screen {
+        padding-top: 5px; /* Decrease padding-top for smaller screens */
+        padding-bottom: 50px; /* Decrease padding-bottom for smaller screens */
+    }
+    
+    .logo-image img {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+        padding-top: 20%; /* Adjust padding-top for smaller screens */
+        padding-bottom: 20%; /* Adjust padding-bottom for smaller screens */
+    }
+
+    .bottomsection {
+        padding-top: 120px; /* Adjust padding-top for smaller screens */
+        padding-bottom: 60px; /* Adjust padding-bottom for smaller screens */
+    }
+
+    #seeyousoon {
+        padding-left: 20px; /* Adjust padding-left for smaller screens */
+    }
+
+    .thirdsection img {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+    
+    #positive {
+        max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+}
+
